@@ -1,2 +1,18 @@
-body {
+.nav-wrapper {
+  background-color: #424242;
+}
+
+.page-footer {
+  background-color: #424242;
+}
+
+.parallax-container {
+  height: "300px";
+}
+
+.nav-wrapper .brand-logo img {
+  position: absolute;
+  top: -50px;
+  height: 200px;
+  clip: rect(50px,200px,120px,0px);
 }
