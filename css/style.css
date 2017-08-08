@@ -14,5 +14,9 @@
   position: absolute;
   top: -50px;
   height: 200px;
-  clip: rect(50px,200px,120px,0px);
+  clip: rect(50px, 200px, 120px, 0px);
+}
+
+.carousel .carousel-item {
+  width: 100%;
 }

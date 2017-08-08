@@ -7,6 +7,8 @@
   <link href="//fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
@@ -48,62 +50,70 @@
 
     </div>
   </nav>
+  <ul id="tabs-swipe" class="tabs center">
+    <li class="tab col s3"><a href="#test-swipe-1">Trading</a></li>
+    <li class="tab col s3"><a class="active" href="#test-swipe-2">Rental</a></li>
+    <li class="tab col s3"><a href="#test-swipe-3">Financing</a></li>
+    <li class="tab col s3"><a href="#test-swipe-4">Insurance</a></li>
+  </ul>
 
-  <div class="parallax-container">
-    <div class="parallax"><img src="images/vanrow.jpg"></div>
-  </div>
-  <div class="section white">
-    <div class="row container">
-      <h2 class="header">Auto Financing</h2>
-      <p class="grey-text text-darken-3 lighten-3">Car Ownership in Singapore is an expensive liability and to many, it has slowly became impossible. Fret not as Index Credit Pte Ltd is here to save the day with less expensive rates for car loan. We make car ownership possible!</p>
+  <div id="test-swipe-1" class="col s12">
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/vanrow.jpg"></div>
+    </div>
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header">Auto Financing</h2>
+        <p class="grey-text text-darken-3 lighten-3">Car Ownership in Singapore is an expensive liability and to many, it has slowly became impossible. Fret not as Index Credit Pte Ltd is here to save the day with less expensive rates for car loan. We make car ownership possible!</p>
 
-      <p class="grey-text text-darken-3 lighten-3">Besides providing the vehicles, Index Credit is able to provide the important element of car ownership - Auto Financing / Car Loan. A Car Loan is required before one can get their hands on their car and next comes Auto/Car Insurance to get your
-        car on the road legally!</p>
+        <p class="grey-text text-darken-3 lighten-3">Besides providing the vehicles, Index Credit is able to provide the important element of car ownership - Auto Financing / Car Loan. A Car Loan is required before one can get their hands on their car and next comes Auto/Car Insurance to get your
+          car on the road legally!</p>
 
-      <p class="grey-text text-darken-3 lighten-3">Index Credit Pte Ltd also offer in-house Car Loan Schemes at highly competitive interest rates! If you have trouble accessing official Bank Car Loans, you might wish to try our in-house Car Loan Financing scheme.</p>
+        <p class="grey-text text-darken-3 lighten-3">Index Credit Pte Ltd also offer in-house Car Loan Schemes at highly competitive interest rates! If you have trouble accessing official Bank Car Loans, you might wish to try our in-house Car Loan Financing scheme.</p>
 
-      <p class="grey-text text-darken-3 lighten-3">Through Index Credit Pte Ltd, you can save the hassle on administrative work as you find the solutions all at one location.</p>
+        <p class="grey-text text-darken-3 lighten-3">Through Index Credit Pte Ltd, you can save the hassle on administrative work as you find the solutions all at one location.</p>
+      </div>
+    </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/carloan.jpg"></div>
     </div>
   </div>
 
-  <div class="parallax-container">
-    <div class="parallax"><img src="images/carloan.jpg"></div>
-  </div>
-
-  <div class="section white">
-    <div class="row container">
-      <h2 class="header">Motor Insurance</h2>
-      <p class="grey-text text-darken-3 lighten-3">When something goes wrong on the road, what should you do?</p>
-
-      <p class="grey-text text-darken-3 lighten-3">Do not worry when you have Index Agency Pte Ltd taking care of your Car Insurance. By engaging Index Agency to provide your vehicle Car Insurance, our Insurance Specialists will guide you on what to do if a mishap happens on the road. Your precious
-        car needs insurance as much as a human being and it is important to know that we provide some of the best and reliable car/motor vehicle insurance services in Singapore.</p>
-
-      <p class="grey-text text-darken-3 lighten-3">Motor Vehicle Insurance by Index Agency ensure that you get the most out of what you deserve when something unfortunate happens to your precious vehicle.</p>
-
-      <p class="grey-text text-darken-3 lighten-3">Get an immediate car insurance quote <a href="/request-quotation">here</a>.</p>
-
+  <div id="test-swipe-2" class="col s12">
+    <div class="parallax-container">
+      <div class="parallax"><img src="images/carinsurance.jpg"></div>
     </div>
-  </div>
 
-  <div class="parallax-container">
-    <div class="parallax"><img src="images/carinsurance.jpg"></div>
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header">Motor Insurance</h2>
+        <p class="grey-text text-darken-3 lighten-3">When something goes wrong on the road, what should you do?</p>
+
+        <p class="grey-text text-darken-3 lighten-3">Do not worry when you have Index Agency Pte Ltd taking care of your Car Insurance. By engaging Index Agency to provide your vehicle Car Insurance, our Insurance Specialists will guide you on what to do if a mishap happens on the road. Your precious
+          car needs insurance as much as a human being and it is important to know that we provide some of the best and reliable car/motor vehicle insurance services in Singapore.</p>
+
+        <p class="grey-text text-darken-3 lighten-3">Motor Vehicle Insurance by Index Agency ensure that you get the most out of what you deserve when something unfortunate happens to your precious vehicle.</p>
+
+        <p class="grey-text text-darken-3 lighten-3">Get an immediate car insurance quote <a href="/request-quotation">here</a>.</p>
+
+      </div>
+    </div>
+
   </div>
+  <div id="test-swipe-3" class="col s12 green">Test 3</div>
+  <div id="test-swipe-4" class="col s12 red">Test 4</div>
 
   <footer class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Index Credit Pte Ltd</h5>
-          <p class="grey-text text-lighten-4">Address: <br>
-            210 Turf Club Road Lot B69/ B72/ B73/ B75 <br>
-            Car Mall @ The Grandstand Singapore 287995</p>
+          <p class="grey-text text-lighten-4">Address: <br> 210 Turf Club Road Lot B69/ B72/ B73/ B75 <br> Car Mall @ The Grandstand Singapore 287995</p>
         </div>
         <div class="col l4 offset-l2 s12">
           <h5 class="white-text">Contact</h5>
           <p class="grey-text text-lighten-4">
-            Tel: <br>
-            +65 6356 2988 <br>
-            +65 6462 0777
+            Tel: <br> +65 6356 2988 <br> +65 6462 0777
           </p>
 
         </div>
