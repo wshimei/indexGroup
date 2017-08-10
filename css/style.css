@@ -1,9 +1,19 @@
+body {
+  color: #0649a2;
+}
+
 .nav-wrapper {
-  background-color: #424242;
+  background-color: #fcee05;
+  color: #0649a2;
 }
 
 .page-footer {
-  background-color: #424242;
+  background-color: #fcee05;
+  color: #0649a2;
+}
+
+.corp-blue-text {
+  color: #0649a2;
 }
 
 .parallax-container {
